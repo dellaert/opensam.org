@@ -20,10 +20,10 @@
     height: 200px;
   }
 
-  background-image: url("/assets/images/Background.png");
+  background-image: url("images/background.jpg");
 
   &.home-page-background {
-    background-image: url("/assets/images/Background.png");
+    background-image: url("images/background.jpg");
     height: 300px;
     @include desktop {
       height: 300px;
