@@ -30,7 +30,7 @@ show_downloads: "true"
 header_pages:
   - get_started.md
   - people.md
-  - blog.md
+  - news.md
   - about.md
 
 

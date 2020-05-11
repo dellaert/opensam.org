@@ -6,7 +6,5 @@ body-class: homepage
 
 {% include jumbotron-home.html %}
 
-OpenSAM ...
+The OpenSAM Foundation (OSF) is a non-profit organization that seeks to advance the use of factor graphs for sensor fusion in robotics and computer vision applications. 
 
-## Recent Tweets
-{% include tweets.html %}
