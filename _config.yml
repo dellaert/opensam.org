@@ -17,16 +17,16 @@ title: OpenSAM
 email: dellaert@opensam.org
 description: >- # this means to ignore newlines until "baseurl:"
   OpenSAM Foundation: advancing factor graphs through GTSAM and OpenSAM.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dellaert.github.io/opensam.org"
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://dellaert.github.io/opensam.org"
 # url: "http://opensam.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: gtsam4
 # github_username: borglab
 # google_analytics: UA-312077-3
 show_excerpts: true
 
-logo: favicon.png
-show_downloads: "true"
+# logo: favicon.png
+# show_downloads: "true"
 
 header_pages:
   - get_started.md
@@ -64,4 +64,4 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-include: [doxygen]
+# include: [doxygen]
