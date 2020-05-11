@@ -16,7 +16,7 @@
 title: OpenSAM
 email: dellaert@opensam.org
 description: >- # this means to ignore newlines until "baseurl:"
-  The OpenSAM Foundation (OSF) seeks to support the development of GTSAM and OpenSAM.
+  OpenSAM Foundation: advancing factor graphs through GTSAM and OpenSAM.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://opensam.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: gtsam4
