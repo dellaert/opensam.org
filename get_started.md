@@ -17,7 +17,7 @@ We intend to release an early pilot version of OpenSAM running on NXP's S32v pla
 The video below, generously provided by Holomatic, shows a development version of OpenSAM in action on several highway scenarios:
 
 <div class="myvideo">
-   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+   <video style="display:block; width:100%; height:auto;" autoplay controls loop="loop" controlslist="nodownload">
        <source src="{{ site.baseurl }}/assets/OpenSAM2.mp4" type="video/mp4" />
    </video>
 </div>
