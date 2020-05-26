@@ -4,44 +4,44 @@ title:  "What are Factor Graphs?"
 categories: opensam.org
 ---
 
-## What is a factor graph?
+Factor graphs can encode the local measurement constraints in a large number of AI, robotics, and computer vision applications.
 
-Boolean Satisfiability:
-
-
-![alt_text](/assets/fg-images/What-is0.png "image_tooltip")
+### Boolean Satisfiability:
 
 
-Constraint Satisfaction:
+![alt_text](/assets/fg-images/image6.png "image_tooltip")
 
 
-
-![alt_text](/assets/fg-images/What-is1.png "image_tooltip")
-
-
-Bayes Networks:
+### Constraint Satisfaction:
 
 
 
-![alt_text](/assets/fg-images/What-is2.png "image_tooltip")
+![alt_text](/assets/fg-images/image3.png "image_tooltip")
 
 
-Polynomial Equations:
-
-
-
-![alt_text](/assets/fg-images/What-is3.png "image_tooltip")
-
-
-Simultaneous Localization and Mapping:
+### Bayes Networks:
 
 
 
-![alt_text](/assets/fg-images/What-is4.png "image_tooltip")
+![alt_text](/assets/fg-images/image5.png "image_tooltip")
 
 
-Structure from Motion:
+### Polynomial Equations:
 
 
-![alt_text](/assets/fg-images/What-is5.png "image_tooltip")
+
+![alt_text](/assets/fg-images/image2.png "image_tooltip")
+
+
+### Simultaneous Localization and Mapping:
+
+
+
+![alt_text](/assets/fg-images/image1.png "image_tooltip")
+
+
+### Structure from Motion:
+
+
+![alt_text](/assets/fg-images/image4.png "image_tooltip")
 
