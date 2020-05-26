@@ -11,9 +11,9 @@ In most of these optimization problems, the objective to be maximized or minimiz
 A particularly insightful way of modeling this locality structure is using the concept of **factor graphs**. Factor graphs are a class of graphical models in which there are variables and factors. The variables represent unknown quantities in the problem, and the factors represent functions on subsets of the variables. Edges in the factor graph are always between factors and variables, and indicate that a particular factor depends on a particular variable.
 
 There are three main **advantages** to using factor graphs when designing algorithms for robotics applications:
-They can represent a wide variety of problems across robotics.
-By laying bare the compositional structure of the problem, they expose opportunities to improve computational performance.
-They are beneficial in designing and thinking about modelling your problem, even aside from performance considerations.
+- They can represent a wide variety of problems across robotics.
+- By laying bare the compositional structure of the problem, they expose opportunities to improve computational performance.
+- They are beneficial in designing and thinking about modelling your problem, even aside from performance considerations.
 
 Because many optimization problems in robotics have the locality property, factor graphs can model a wide variety of problems across AI and robotics. Some of these are illustrated below:
 
