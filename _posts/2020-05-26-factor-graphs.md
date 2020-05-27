@@ -4,6 +4,8 @@ title:  "What are Factor Graphs?"
 categories: opensam.org
 ---
 
+### By [Frank Dellaert](http://www.cc.gatech.edu/~dellaert), [@fdellaert on Twitter](http://twitter.com/fdellaert)
+ 
 Many computational problems in robotics have an optimization problem at their core. For example, in simultaneous localization and mapping (SLAM) and many other **estimation problems** we are after a maximum a posteriori estimate, i.e., we try to maximize posterior probability of the variables given a set of measurements. When attempting to **act optimally**, we try to maximize a performance index, or conversely minimize a penalty function. And even in classical planning, we are trying to find an assignment to a set of discrete variables that minimizes the plan length or optimizes for some other desirable property of the plan.
 
 In most of these optimization problems, the objective to be maximized or minimized is composed of many different **factors or terms that typically are local in nature**, i.e., they only depend on a small subset of the entire set of variables. For example, in a tracking application, a particular video frame only provides information about the position of a target at a particular time. At the next time step, a different variable is associated with the target. Of course, this depends on the parametrization chosen: if a track is globally parametrized, for example as a polynomial, this locality is destroyed. 
@@ -41,7 +43,7 @@ If we relax the hard constraints to real-valued *preferences*, we switch to a *C
 
 ## Polynomial Equations:
 
-The constraints can also be other functions of the variables. For example, we can represent a system of polynomial equations by a factor graph. The example below, adapted from Gim Hee Lee's Ph.D. this, encodes a minimal geometry problem from computer vision, useful for autonomous driving:
+The constraints can also be other functions of the variables. For example, we can represent a system of polynomial equations by a factor graph. The example below, adapted from Gim Hee Lee's Ph.D. thesis, encodes a minimal geometry problem from computer vision, useful for autonomous driving:
 
 ![alt_text](/assets/fg-images/image2.png "image_tooltip")
 
