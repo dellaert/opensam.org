@@ -1,4 +1,2 @@
 # opensam.org
-Website for OpenSAM
-
-For now at https://dellaert.github.io/opensam.org/ until we get the domain re-directed.
+Website for OpenSAM, LIVE AT https://opensam.org/
