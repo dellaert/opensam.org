@@ -4,7 +4,7 @@ title:  "What are Factor Graphs?"
 categories: opensam.org
 ---
 
-### By [Frank Dellaert](http://www.cc.gatech.edu/~dellaert), [@fdellaert on Twitter](http://twitter.com/fdellaert)
+### By [Frank Dellaert](https://dellaert.github.io/), [@fdellaert on Twitter](http://twitter.com/fdellaert)
  
 Many computational problems in robotics have an optimization problem at their core. For example, in simultaneous localization and mapping (SLAM) and many other **estimation problems** we are after a maximum a posteriori estimate, i.e., we try to maximize posterior probability of the variables given a set of measurements. When attempting to **act optimally**, we try to maximize a performance index, or conversely minimize a penalty function. And even in classical planning, we are trying to find an assignment to a set of discrete variables that minimizes the plan length or optimizes for some other desirable property of the plan.
 
@@ -63,7 +63,7 @@ Finally, we can also represent *3D mapping* or *3D reconstruction* problems with
 
 ## Conclusion
 
-For more information about how factor graphs are typically used to solve perception problems in robotics, see the following booklet: [Factor graphs for robot perception](http://www.cc.gatech.edu/~dellaert/pubs/Dellaert17fnt.pdf), by [Frank Dellaert](http://www.cc.gatech.edu/~dellaert) and [Michael Kaess](https://frc.ri.cmu.edu/~kaess/), which appeared in 2017 in Foundations and Trends in Robotics.
+For more information about how factor graphs are typically used to solve perception problems in robotics, see the following booklet: [Factor graphs for robot perception](https://dellaert.github.io//pubs/Dellaert17fnt.pdf), by [Frank Dellaert](https://dellaert.github.io/) and [Michael Kaess](https://frc.ri.cmu.edu/~kaess/), which appeared in 2017 in Foundations and Trends in Robotics.
 
 However, this is just the tip of the iceberg. Factor graphs can be used to model a much wider variety of problems across robotics domains, such as Tracking, Inertial Navigation, Mapping with LIDARs, Classical Planning, Reinforcement Learning and Optimal Control, Motion Planning etc...
 
